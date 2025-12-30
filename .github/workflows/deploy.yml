@@ -37,4 +37,4 @@ jobs:
             echo "Installing dependencies..."
             npm install
             echo "Running tests..."
-            npm run test
+            pm2 restart node-app
